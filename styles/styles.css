@@ -1,0 +1,99 @@
+body {
+  margin: 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #19A2AE;
+  font-family: "Kumbh Sans";
+  overflow:hidden;
+}
+/********************************************* backgroundImages */
+.backgroundImages{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.bottomBg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+}
+.topBg{
+  position: absolute;
+  right: 50%;
+  bottom:50%;
+  width: 800px;
+}
+
+/***************************************************** mainCard */
+.mainCard{
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align:center;
+  overflow: hidden;
+}
+
+/************************************************** cardImages */
+.cardImages{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardBg{
+  width: 400px;
+}
+.victorImage{
+  position: absolute;
+  top: 110px;
+  border-radius: 100%;
+  border: 5px solid white;
+}
+/***************************************************** nameAndCity */
+.name-City{
+  margin-top: 70px;
+}
+.name{
+  margin: 0 0 0;
+  font-size: 1.5rem;
+}
+span{
+  color: #969696;
+  font-variant: small-caps;
+}
+.city {
+  margin: 0 0 0;
+}
+/******************************************************* stats */
+.line{
+  width:100%;
+  height: 1px;
+  background-color: grey;
+  opacity: 0.75;
+  margin-top: 20px;
+}
+.stats{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 60px;
+  margin: 0 0 0;
+  margin-top: 30px;
+}
+h2,p{
+  margin:0 0 0;
+}
+p{
+  font-variant: small-caps;
+  color: #969696;
+  letter-spacing: 3px;
+  font-size: 0.6rem;
+}
